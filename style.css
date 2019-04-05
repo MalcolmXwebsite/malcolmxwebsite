@@ -1,0 +1,140 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #222;
+}
+
+@-webkit-keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.section1 h1 {
+  text-align: center;
+  color: red;
+  font-family: 'Germania One', cursive;
+  font-size: 120px;
+  text-shadow: 2px 3px 0px #7A7A7A;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 100px;
+  margin-top: 20px;
+}
+
+.section2 h1 {
+  color: black;
+  font-family: 'Lato', sans-serif;
+  font-size: 50px;
+  text-shadow: 0px 0px 2px #7A7A7A;
+  margin: 0;
+  padding: 35px;
+  text-align: center;
+}
+
+p, h2 {
+  font-family: 'Lato', sans-serif;
+  padding: 20px;
+  font-size: 22px;
+  padding: 20px;
+  margin: 0;
+}
+
+h2 {
+  color: white;
+  font-size: 30px;
+  font-weight: bolder;
+
+}
+
+.by {
+  opacity: 0.2;
+  margin: 0;
+  padding: 10px;
+}
+
+.backgroundinfo {
+  width: calc(100% - 450px);
+  margin-left: 30px;
+  background-color: #555;
+  float: left;
+  border: red solid 3px;
+  border-radius: 10px;
+  height: 50%;
+}
+
+.backgroundinfo2 {
+  width: 64.5%;
+  margin-left: 40px;
+  background-color: #555;
+  float: right;
+  border: red solid 3px;
+  border-radius: 10px;
+  height: 60%;
+  margin-right: 30px;
+  margin-top: 100px;
+}
+
+.pictureofmalcolmx {
+  float: right;
+  height: 50%;
+  margin-right: 30px;
+  border: red solid 3px;
+  border-radius: 10px;
+
+}
+
+.pictureofmalcolmx2 {
+  float: left;
+  height: 60%;
+  margin-right: 15px;
+  border: red solid 3px;
+  border-radius: 10px;
+  margin-left: 30px;
+  margin-top: 100px;
+}
+
+.section1 p, .section2 p {
+  color: #fff;
+}
+
+.section1 {
+  height: 100vh;
+}
+.section2 {
+  height: 100vh;
+  background-color: #222;
+}
+
+.banner {
+  width: 100%;
+}
+
+audio {
+  margin-left: 20px;
+  width: 55%;
+  color: red;
+}
+
+.title {
+  width: 100%;
+  background: linear-gradient(-45deg, #EE9072, #E73C7E, #23A6D5, #23D5AB);
+  background-size: 400% 400%;
+  animation: gradient 40s infinite;
+}
+
+.rating {
+  height: 40px;
+  padding: 0;
+  padding-left: 20px;
+}
+
+.ratingtitle {
+  padding: 20px;
+}
